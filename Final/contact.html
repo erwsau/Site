@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav__logo">Erwann Sautet</a>
+        </nav>
+    </header>
+    <section class="sections">
+        <div class="section-titles">Contact</div>
+        <div class="section-contents">
+            <div class="section-content__containers">
+                <div class="section-content__container__items">
+                    <img src="images/GitHub-Logo.png" alt="github logo">
+                    <a href="https://github.com/erwsau" target="_blank">Github</a>
+                </div>
+                <div class="section-content__container__items">
+                    <img src="images/linkedin.png" alt="linkedin logo">
+                    <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+                </div>
+                <div class="section-content__container__items">
+                    <img src="images/phone.png" alt="phone logo">
+                    <a href="tel:+33604132411">+33 6 04 13 24 11</a>
+                </div>
+                <div class="section-content__container__items">
+                    <img src="images/mail.png" alt="mail logo">
+                    <a href="mailto:erwann.sautet@gmail.com">erwann.sautet@gmail.com</a>
+                </div>
+            </div>
+            <form action="pdf/CV.pdf" method="get" target="_blank">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom">
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="entreprise">Entreprise :</label>
+                <input type="text" id="entreprise" name="entreprise" required>
+                <br><br>
+                <input type="submit" value="Envoyer"> 
+            </form>            
+        </div>
+
+    </section>
+    <footer>
+        <p>Copyright &copy; Erwann Sautet. Tous droits réservés.</p>
+      </footer>
+      
+</body>
+</html>
